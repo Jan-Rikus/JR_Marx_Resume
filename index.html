@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography of Jan-Rikus Marx</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/a83cd57929.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Header Section-->
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1 id="header-name">BIOGRAPHY OF <span>JAN-RIKUS MARX</span></h1>
+            </div>
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu(event)"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu(event)"></i>
+            </nav>
+        </div>
+    </div>
+<!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="JR.jpg" alt="Jan-Rikus in Abu Dhabi Desert">
+                </div>
+                <div class="about-col-2">
+                    <h1>About me</h1>
+                    <p>
+                        I am a driven professional with a background in civil engineering and quantity surveying, 
+                        currently in the exciting process of transitioning into the software development industry.
+                    </p>
+                    <br>
+                    <p>
+                        Throughout my civil engineering and quantity surveying studies, I developed a keen eye for detail,
+                        excellent problem-solving abilities, and a methodical approach to challenges. 
+                        Combining this background with my ongoing software engineering training,
+                        I am thrilled about approaching complex engineering problems from a fresh perspective and crafting innovative solutions.
+                    </p>
+                    <br>
+                    <p>
+                        Embracing the dynamic world of technology, I am passionate about continuous learning.
+                        As I progress through this transformative software engineering boot camp, I eagerly anticipate contributing my diverse skill set
+                        to impactful projects within the software development industry. My adaptability, work ethic, and collaborative nature position me well
+                        to thrive in this exciting and ever-evolving field.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Engineering Languages</span><br>Python - Java - HTML - CSS - JavaScript</li>
+                                <li><span>Finance</span><br>Financial Modelling and Analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>Junior Financial Manager at Dormehl Phalane Student Accommodation</li>
+                                <li><span>2019 - 2021</span><br>Junior Quantity Surveyor at Eddie Stemmet Bouers</li>
+                                <li><span>2019</span><br>Junior Quantity Surveyor at Infinite Group Quantity Surveyors</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Software Engineering Online Bootcamp at HyperionDev</li>
+                                <li><span>2014 - 2018</span><br>BSc Quantity Surveying at University of KwaZulu Natal</li>
+                                <li><span>2011 - 2014</span><br>Civil Engineering at Durban University of Technology</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Services Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        As a web designer, I bring your digital vision to life.
+                        With a keen eye for aesthetics and user experience,
+                        I craft visually stunning and user-friendly websites that captivate your audience.
+                        My expertise in responsive design ensures your site looks and functions flawlessly across all devices.
+                        I prioritize seamless navigation, fast loading times, and SEO optimization to enhance your online presence.
+                        Let me transform your ideas into a captivating online reality that drives engagement and conversions.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I specialize in UI/UX design to elevate your digital products.
+                        With a deep understanding of user behavior, I create intuitive interfaces that enhance user satisfaction and engagement.
+                        My designs prioritize simplicity, clarity, and efficiency, ensuring a seamless user journey.
+                        By combining aesthetics and functionality, I craft memorable user experiences that drive customer loyalty and conversion rates.
+                        Let me transform your vision into user-centric designs that set you apart from the competition.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analysis</h2>
+                    <p>
+                        As a skilled data analyst proficient in Python, I turn raw data into actionable insights.
+                        I excel in data cleaning, visualization, and statistical analysis, uncovering valuable patterns and trends.
+                        My expertise in machine learning and data modeling empowers data-driven decision-making.
+                        I am committed to delivering concise, actionable reports that drive strategic business growth.
+                        Let me harness the power of data to fuel your success and provide you with a competitive edge.
+                    </p>
+                </div>
+            </div> 
+        </div>
+    </div>
+<!--Portfolio Section-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+
+            <div class="project-list">
+
+                <div class="project">
+                    <img src="images/work-1.png" alt="Python Programming Logo" width="20%" height="20%">
+                    <div class="layer">
+                        <h3>Python Capstone Project</h3>
+                        <p>Shoe Inventory System for Warehouse</p>
+                        <a href="https://github.com/Jan-Rikus/PythonCapstoneOOP" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/work-2.png" alt="Python Programming Logo" width="20%" height="20%">
+                    <div class="layer">
+                        <h3>Java Capstone Project</h3>
+                        <p>Project Management System for a Structural Engineering Company</p>
+                        <a href="https://github.com/Jan-Rikus/JavaCapstone1" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--Contact Me Section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> janrikus@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +2761 597 7388</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/janrikus" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/janrikus/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jr-marx/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Jan-Rikus" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Biography of Jan-Rikus Marx. All Rights Reserved</p>
+        </div>
+    </div>
+<!--JavaScript Implementation-->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        window.onresize = function(){
+            document.getElementById("header-name");
+            if(div) {}
+        }
+        .innerHTML = "Test";
+
+    </script>
+
+<!--Google Sheets Implementation-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxXBMlN7FWxnVw-1k6aOrpo0PF6RANF-IyKKtMy_-srcPAzO_fWF97Ld53PDh5LQenF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const message = document.getElementById("message")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    message.innerHTML = "Message sent successfully!"
+                    setTimeout(function(){
+                        message.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
+
+<!--End of Program-->
